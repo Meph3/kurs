@@ -1298,7 +1298,7 @@ int init() {
     }
     else
     {
-        gWindow = SDL_CreateWindow("Bubble Shooter | Ilyushina Darya", SDL_WINDOWPOS_UNDEFINED,
+        gWindow = SDL_CreateWindow("Bubble Shooter | David", SDL_WINDOWPOS_UNDEFINED,
             SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
         if (gWindow == NULL)
         {
